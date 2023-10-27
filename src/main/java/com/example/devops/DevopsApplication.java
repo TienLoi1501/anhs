@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration;
 @EnableAutoConfiguration(exclude = { ErrorMvcAutoConfiguration.class })
 public class DevopsApplication {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		SpringApplication.run(DevopsApplication.class, args);
 	}
 }
